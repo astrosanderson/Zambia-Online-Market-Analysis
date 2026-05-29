@@ -1,0 +1,26 @@
+{
+  "name": "zambia-online-market-analysis",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Generates the Zambia Online Retail Opportunity Assessment PowerPoint deck (9 slides) using PptxGenJS.",
+  "main": "zambia_build_script.js",
+  "scripts": {
+    "build": "node zambia_build_script.js"
+  },
+  "keywords": [
+    "zambia",
+    "e-commerce",
+    "online-retail",
+    "pptx",
+    "pptxgenjs",
+    "presentation"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

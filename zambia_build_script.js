@@ -295,8 +295,9 @@ async function main() {
     s.addText("Thank you  ·  Questions welcome", { x: 0.65, y: 4.75, w: 6, h: 0.38, fontFace: FONT, fontSize: 11, color: C.muted, margin: 0 });
   }
 
-  await pres.writeFile({ fileName: "/home/claude/zambia_v2.pptx" });
-  console.log("Done!");
+  const fileName = "zambia_retail_v2.pptx";
+  await pres.writeFile({ fileName });
+  console.log(`Done! Wrote ${fileName}`);
 }
 
 main().catch(console.error);
